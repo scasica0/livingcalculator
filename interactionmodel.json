@@ -1,0 +1,134 @@
+{
+     "languageModel": {
+          "types": [
+               {
+                    "name": "difficultyType",
+                    "values": [
+                         {
+                              "id": null,
+                              "name": {
+                                   "value": "easy",
+                                   "synonyms": []
+                              }
+                         },
+                         {
+                              "id": null,
+                              "name": {
+                                   "value": "medium",
+                                   "synonyms": []
+                              }
+                         },
+                         {
+                              "id": null,
+                              "name": {
+                                   "value": "hard",
+                                   "synonyms": []
+                              }
+                         }
+                    ]
+               }
+          ],
+          "intents": [
+               {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+               },
+               {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+               },
+               {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+               },
+               {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                         "stop",
+                         "off",
+                         "no more",
+                         "please no more"
+                    ]
+               },
+               {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+               },
+               {
+                    "name": "AnswerEquationIntent",
+                    "samples": [
+                         "The answer is {answer}",
+                         "Its {answer}",
+                         "It is {answer}",
+                         "{answer}",
+                         "i think it is {answer}",
+                         "i believe it is {answer}",
+                         "is it {answer}",
+                         "maybe its {answer}",
+                         "maybe it is {answer}",
+                         "i dont know",
+                         "i do not know",
+                         "i give up",
+                         "maybe {answer}",
+                         "possibly {answer}",
+                         "i think its {answer}",
+                         "it is maybe {answer}",
+                         "its maybe {answer}",
+                         "perhaps it is {answer}",
+                         "i say {answer}",
+                         "i say it is {answer}",
+                         "i say its {answer}"
+                    ],
+                    "slots": [
+                         {
+                              "name": "answer",
+                              "type": "AMAZON.NUMBER"
+                         }
+                    ]
+               },
+               {
+                    "name": "DifficultyIntent",
+                    "samples": [
+                         "{difficulty}",
+                         "i choose {difficulty}",
+                         "select {difficulty}"
+                    ],
+                    "slots": [
+                         {
+                              "name": "difficulty",
+                              "type": "difficultyType"
+                         }
+                    ]
+               },
+               {
+                    "name": "InstructionsIntent",
+                    "samples": [
+                         "how do I play",
+                         "instructions",
+                         "directions",
+                         "tell me how to play",
+                         "how to play",
+                         "rules",
+                         "what are the rules",
+                         "what are the instructions",
+                         "what are the directions",
+                         "tell me the directions",
+                         "tell me the instructions",
+                         "tell me the rules"
+                    ],
+                    "slots": []
+               },
+               {
+                    "name": "NewGameIntent",
+                    "samples": [
+                         "start a new game",
+                         "new game",
+                         "start a new round",
+                         "start"
+                    ],
+                    "slots": []
+               }
+          ],
+          "invocationName": "living calculator"
+     }
+}

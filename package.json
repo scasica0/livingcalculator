@@ -1,0 +1,20 @@
+{
+     "name": "livingCalculator",
+     "version": "1.0.0",
+     "description": "A simple game where player solves a series of increasingly longer math equations",
+     "main": "index.js",
+     "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+     },
+     "keywords": [
+          "alexa",
+          "skill"
+     ],
+     "author": "Amazon.com",
+     "license": "Apache-2.0",
+     "dependencies": {
+          "alexa-sdk": "^1.0.11",
+          "voice-insights-sdk": "^1.2.2",
+          "ical": "^0.5.0"
+     }
+}

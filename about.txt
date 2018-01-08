@@ -1,0 +1,22 @@
+The Living Calculator is a family-friendly math game where you solve a series of increasingly larger math equations until you answer incorrectly.
+
+Get ready for some educational fun!
+
+The Living Calculator is a child and family-friendly math mind game where you solve an equation that is told to you at the start of each round. 
+
+This game can help you have some fun while learning simple arithmetic or it can be used to sharpen and challenge your math skills, memory skills, and even mental reflexes! It is great for your child because the answers are always non-negative,the equations are fairly simple and the game has multiple levels of difficulties and it has multiple levels of difficulties, but it can also be fun for the whole family. 
+
+It is a fun game to take turns and play with your family, friends or even just alone with the company of your pal, Alexa. Just make sure to keep track of your score after your turn is up, to see if you can improve.
+
+Here's how it works:
+- When you begin a new game, you select a difficulty (easy, medium, or hard)
+- You are then told an equation and asked to give a solution.
+- If you answer an equation incorrectly, the game ends, but you always have the choice to play again. 
+- HOWEVER, if you are a smarty-pants and you answer an equation correctly, you have the choice to continue, BUT BE WEARY- the next equation will always have one extra number added to it. 
+
+Here is a breakdown of the difficulties:
+- Easy difficulty is addition only with numbers between 0 and 10. 
+- Medium difficulty is addition AND subtraction with numbers between 0 and 10. 
+- Hard difficulty is addition and subtraction also, but with numbers between 0 and 20.
+
+Now that you know what it does... Do you think you have what it takes to become a LIVING CALCULATOR?!?
